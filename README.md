@@ -26,3 +26,5 @@ Have them predict asset path urls for files in different directories, show them 
 generate those urls with fingerprints via the asset_path helper that all other asset loads will use (javascript_include_tag uses that internally...)
 
 note the danger in using <img src=> and manually trying to guess the asset url and not getting the fingerprint.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/images-and-the-asset-pipeline' title='Images And The Asset Pipeline'>Images And The Asset Pipeline</a> on Learn.co and start learning to code for free.</p>
