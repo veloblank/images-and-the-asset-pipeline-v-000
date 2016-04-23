@@ -89,9 +89,11 @@ If we were to look at one of these paths, it would look like this.
 /assets/logo-331238805bdaebb4b05e9385bc1261f8.png
 ```
 
-A digest is appended to the file name. If the file is update, the digest will change. We won't have to worry about users having old versions of image files when we make changes.
+A digest is appended to the file name. If the file is updated, the digest will change. We won't have to worry about users having old versions of image files when we make changes.
 
 ## Image Tags
 It is possible to predict the path to a image file and create our own image tag. This is not recommended since it will limit your ability to move your file and avoid caching problems that the helpers fix.  ALWAYS USE THE HELPERS.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/images-and-the-asset-pipeline' title='Images And The Asset Pipeline'>Images And The Asset Pipeline</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/images-and-the-asset-pipeline'>Images And The Asset Pipeline</a> on Learn.co and start learning to code for free.</p>
