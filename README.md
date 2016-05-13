@@ -59,7 +59,7 @@ The `asset_path` helper is great for image paths located in our CSS files.
 ```
 
 ## `image_tag` Helper
-Most of the time we don't only care what the URL is for an image, we want to generate an HTML tag that will actually dispay the image for a user.
+Most of the time we don't only care what the URL is for an image, we want to generate an HTML tag that will actually display the image for a user.
 The `image_tag` helper creates an `<img>` tag with the path to the image.
 
 ```html
