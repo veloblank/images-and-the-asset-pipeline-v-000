@@ -81,7 +81,7 @@ If the asset pipeline can't find the file, an image tag will be created with the
 Since this image doesn't exist we will see a broken image on our web page.
 
 ## Fingerprinting
-Just like with our JS and CSS, browser caching can cause problems when we decide to update an image. When we use either `asset_path` or `image_tag` to display our images, the Asset Pipeline with add a fingerprint to the file. This will only happen if we are running our application with fingerprinting on. By default it's on in both production and development.  If you want to turn it off you can go to the environment file `config/environment/development.rb` and change `config.assets.digest = false`.
+Just like with our JS and CSS, browser caching can cause problems when we decide to update an image. When we use either `asset_path` or `image_tag` to display our images, the Asset Pipeline will add a fingerprint to the file. This will only happen if we are running our application with fingerprinting on. By default it's on in both production and development.  If you want to turn it off you can go to the environment file `config/environment/development.rb` and change `config.assets.digest = false`.
 
 If we were to look at one of these paths, it would look like this.
 
