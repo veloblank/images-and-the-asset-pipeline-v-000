@@ -8,7 +8,7 @@
 4. Use image_tag helpers
 
 ## Outline
-Most web applications have images. Just like JavaScript and Stylesheets, the Asset Pipeline makes dealing with images easier. The Asset Pipeline helps us build paths and deal with caching problems.
+Most web applications have images. Just like JavaScript and Stylesheets, the Asset Pipeline makes dealing with images easier. The Asset Pipeline helps us build paths and deal with catching problems.
 
 ## Where do images go?
 Where do we put our images so the Asset Pipeline can find them? We can put them in the `app/assets/images` directory. By default, this path is already included in the asset paths. It's possible to add more image paths to the asset paths by adding to `Rails.application.assets.paths`. Once the additional path has been added, we can access it using the standard `/assets` url. The cool thing here is we can use one URL path that maps to a bunch of different folders. For example the URL "/assets/logo.png" will look in all the folders in the asset paths for that image, but no matter where it's located its URL never changes.
@@ -92,6 +92,6 @@ If we were to look at one of these paths, it would look like this:
 A digest is appended to the file name. If the file is updated, the digest will change. We won't have to worry about users having old versions of image files when we make changes.
 
 ## Image Tags
-It is possible to predict the path to a image file and create our own image tag. This is not recommended since it will limit your ability to move your file and avoid caching problems that the helpers fix. ALWAYS USE THE HELPERS.
+It is possible to predict the path to a image file and create our own image tag. This is not recommended since it will limit your ability to move your file and avoid catching problems that the helpers fix. ALWAYS USE THE HELPERS.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/images-and-the-asset-pipeline' title='Images and the Asset Pipeline'>Images and the Asset Pipeline</a> on Learn.co and start learning to code for free.</p>
